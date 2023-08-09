@@ -1,0 +1,14 @@
+.links {
+  display: flex;
+  font-size: 2rem;
+  gap: 2rem;
+}
+
+.links a {
+  color: var(--color-primary-800);
+  transition: var(--transition);
+}
+
+.links a:hover {
+  color: var(--color-primary-600);
+}

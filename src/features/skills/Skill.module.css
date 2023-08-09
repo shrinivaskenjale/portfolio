@@ -1,0 +1,18 @@
+.skill {
+  background-color: var(--color-stone-200);
+  color: var(--color-stone-500);
+  font-size: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  gap: 0.5rem;
+  border-radius: var(--border-radius);
+  padding: 0.5rem;
+  flex-basis: 8rem;
+  text-align: center;
+}
+
+.skill svg {
+  font-size: 2rem;
+}

@@ -1,0 +1,20 @@
+.educationItem {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  gap: 1rem;
+  padding: 1rem;
+  background-color: var(--color-stone-50);
+  border-radius: var(--border-radius);
+  box-shadow: var(--box-shadow);
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  gap: 0.25rem;
+}
+
+.marks {
+  font-weight: 700;
+  color: var(--color-primary-700);
+}

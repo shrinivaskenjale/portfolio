@@ -1,0 +1,25 @@
+.aboutContainer {
+  /* padding: 2rem 0; */
+  display: grid;
+  gap: 2rem;
+  align-items: center;
+}
+
+.image {
+  width: 100%;
+  /* max-width: 20rem; */
+  justify-self: center;
+}
+
+.content p {
+  margin-bottom: 1rem;
+  text-align: justify;
+  text-indent: 3rem;
+}
+
+@media screen and (min-width: 700px) {
+  .aboutContainer {
+    grid-template-columns: 1fr 1fr;
+    gap: 5rem;
+  }
+}
