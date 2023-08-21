@@ -4,12 +4,20 @@ const Links = () => {
   return (
     <ul className={styles.links}>
       <li>
-        <a href="https://github.com/shrinivaskenjale?tab=repositories">
+        <a
+          href="https://github.com/shrinivaskenjale?tab=repositories"
+          target="_blank"
+          rel="noreferrer"
+        >
           <AiFillGithub />
         </a>
       </li>
       <li>
-        <a href="#">
+        <a
+          href="https://www.linkedin.com/in/shrinivaskenjale/"
+          target="_blank"
+          rel="noreferrer"
+        >
           <AiFillLinkedin />
         </a>
       </li>

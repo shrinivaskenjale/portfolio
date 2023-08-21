@@ -17,7 +17,7 @@ const data = [
   {
     degree: "B.Tech in Computer Engineering",
     university: "Dr. Babasaheb Ambedkar Technological University",
-    marks: "9.40 CGPA",
+    marks: "9.44 CGPA",
     badge: <FaCertificate />,
   },
   {
